@@ -11,7 +11,7 @@ We used [XNMT](https://github.com/neulab/xnmt) with [commitID 38044b3](https://g
 
 ##### Experiments:
 
-* Datasets for the specific language pairs used in the experiments mentioned in this paper: [qi18naacl-dataset.tar.gz](http://www.phontron.com/qi18naacl-dataset.tar.gz).
+* Datasets for the specific language pairs used in the experiments mentioned in this paper: [qi18naacl-dataset.tar.gz](http://www.phontron.com/data/qi18naacl-dataset.tar.gz).
 * All the configuration files: [experiment_settings.tar.gz](supplementary/experiment_settings.tar.gz).
 * Descriptions for configuration files: [experiment\_setting\_specification.xlsx](supplementary/experiment_setting_specification.xlsx).
 * Supplementary examples: [supplementary\_figures\_and\_tables.pdf](supplementary/supplementary_figures_and_tables.pdf).
