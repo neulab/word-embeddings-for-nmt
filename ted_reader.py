@@ -87,7 +87,7 @@ class MultiLingualAlignedCorpusReader(object):
 
     def read_from_single_file(self, path_, s_lang, t_lang):
         data_dict = defaultdict(list)
-        with open(path_, 'rb') as fp:
+        with open(path_, 'r') as fp:
             reader = csv.DictReader(fp, delimiter='\t', quoting=csv.QUOTE_NONE)
             for row in reader:
                 data_dict['source'].append(row[s_lang])
